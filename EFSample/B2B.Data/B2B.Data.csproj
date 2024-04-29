@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\B2B.Data.EF\B2B.Data.EF.csproj" />
+	  <ProjectReference Include="..\B2B.Objects\B2B.Objects.csproj" />
+	  <ProjectReference Include="..\B2B.Data.EF.MSSQL\B2B.Data.EF.MSSQL.csproj" />
+  </ItemGroup>
+
+</Project>

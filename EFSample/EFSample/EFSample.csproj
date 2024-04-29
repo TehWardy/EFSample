@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\B2B.Data.EF.MSSQL\B2B.Data.EF.MSSQL.csproj" />
+    <ProjectReference Include="..\B2B.Data.EF\B2B.Data.EF.csproj" />
+    <ProjectReference Include="..\B2B.Data\B2B.Data.csproj" />
+    <ProjectReference Include="..\B2B.Objects\B2B.Objects.csproj" />
+
+    <PackageReference Include="cCoder.Eventing.EventLibrary" Version="2024.4.25.1151" />
+
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
