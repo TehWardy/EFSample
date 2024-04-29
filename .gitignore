@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/EFSample/.vs/EFSample
+/EFSample/B2B.Data/bin/Debug/net8.0
+/.vs
+/EFSample/B2B.Data/obj
+/EFSample/B2B.Data.EF/bin/Debug/net8.0
+/EFSample/B2B.Data.EF/obj
+/EFSample/B2B.Data.EF.MSSQL/bin/Debug/net8.0
+/EFSample/B2B.Data.EF.MSSQL/obj
+/EFSample/B2B.Objects/bin/Debug/net8.0
+/EFSample/B2B.Objects/obj
+/EFSample/EFSample/bin/Debug/net8.0
+/EFSample/EFSample/obj
